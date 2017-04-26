@@ -9,7 +9,7 @@ require "logstash-filter-geoip_jars"
 #
 # A `[geoip][location]` field is created if
 # the GeoIP lookup returns a latitude and longitude. The field is stored in
-# http://geojson.org/geojson-spec.html[GeoJSON] format. Additionally,
+# https://tools.ietf.org/html/rfc7946[GeoJSON] format. Additionally,
 # the default Elasticsearch template provided with the
 # <<plugins-outputs-elasticsearch,`elasticsearch` output>> maps
 # the `[geoip][location]` field to an http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/mapping-geo-point-type.html#_mapping_options[Elasticsearch geo_point].
